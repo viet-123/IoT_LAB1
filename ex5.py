@@ -45,4 +45,4 @@ lgt = 106.6297
 lat = 10.8231
 collect_data = {'longitude': lgt, 'latitude': lat}
 client.publish('v1/devices/me/telemetry', json.dumps(collect_data), 1)
-time.sleep(10)
+
