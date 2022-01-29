@@ -2,7 +2,6 @@ print("Xin chào ThingsBoard")
 import  paho.mqtt.client as mqttclient
 import time
 import json
-import random
 
 BROKER_ADDRESS = "demo.thingsboard.io"
 PORT = 1883
